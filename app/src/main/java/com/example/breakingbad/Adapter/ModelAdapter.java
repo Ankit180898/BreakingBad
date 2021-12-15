@@ -1,23 +1,20 @@
 package com.example.breakingbad.Adapter;
 
-import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.breakingbad.Details;
+import com.example.breakingbad.UI.Details;
 import com.example.breakingbad.R;
 import com.example.breakingbad.model.Model;
 
-import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 

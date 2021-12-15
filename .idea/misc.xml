@@ -3,9 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/karan/Downloads/BreakingBad/app/src/main/res/drawable/white_bg.xml" value="0.72" />
+        <entry key="..\:/Users/karan/Downloads/BreakingBad/app/src/main/res/layout/activity_character_description.xml" value="0.22109626900046062" />
+        <entry key="..\:/Users/karan/Downloads/BreakingBad/app/src/main/res/layout/activity_details.xml" value="0.4" />
         <entry key="..\:/Users/karan/Downloads/BreakingBad/app/src/main/res/layout/activity_main.xml" value="0.16701461377870563" />
-        <entry key="..\:/Users/karan/Downloads/BreakingBad/app/src/main/res/layout/list_items.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/karan/Downloads/BreakingBad/app/src/main/res/layout/character_recycler_items.xml" value="0.536" />
+        <entry key="..\:/Users/karan/Downloads/BreakingBad/app/src/main/res/layout/list_items.xml" value="0.4" />
+        <entry key="..\:/Users/karan/Downloads/BreakingBad/app/src/main/res/layout/shimmer_character_layout.xml" value="0.4" />
         <entry key="..\:/Users/karan/Downloads/BreakingBad/app/src/main/res/layout/shimmer_layout.xml" value="0.4" />
+        <entry key="..\:/Users/karan/Downloads/BreakingBad/app/src/main/res/menu/character_menu.xml" value="0.25" />
+        <entry key="..\:/Users/karan/Downloads/BreakingBad/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.14322916666666666" />
       </map>
     </option>
   </component>

@@ -3,19 +3,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="#002B2A"
+    android:background="#000B0B"
     android:clickable="true"
     android:padding="10dp">
 
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/listview"
         android:layout_width="match_parent"
         android:layout_height="149dp"
         android:layout_margin="7dp"
-        android:id="@+id/listview"
-        app:cardBackgroundColor="#009688"
         android:clickable="true"
         android:foreground="?android:attr/selectableItemBackground"
+        app:cardBackgroundColor="#002E2A"
         app:cardCornerRadius="5dp"
         app:cardElevation="5dp">
 
@@ -38,6 +38,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginTop="10dp"
+                    android:fontFamily="@font/poppins_bold"
                     android:gravity="center"
                     android:text="TextView"
                     android:textColor="#FFFFFF"
@@ -56,6 +57,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
                         android:layout_weight="1"
+                        android:fontFamily="@font/poppins_medium"
                         android:gravity="center"
                         android:text="Season"
                         android:textColor="#FFFFFF" />
@@ -65,6 +67,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
+                        android:fontFamily="@font/poppins_medium"
                         android:gravity="center"
                         android:text="TextView"
                         android:textColor="#FFFFFF" />
@@ -83,6 +86,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
                         android:layout_weight="1"
+                        android:fontFamily="@font/poppins_medium"
                         android:gravity="center"
                         android:text="Episode"
                         android:textColor="#FFFFFF" />
@@ -93,6 +97,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="1"
+                        android:fontFamily="@font/poppins_medium"
                         android:gravity="center"
                         android:text="TextView"
                         android:textColor="#FFFFFF" />

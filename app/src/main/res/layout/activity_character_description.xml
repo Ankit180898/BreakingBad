@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.CharacterDescription">
+
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="272dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/breakingbad_bg2" />
+
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:id="@+id/shimmer_view_container1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_below="@+id/imageView2"
+                >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <include layout="@layout/shimmer_character_layout"/>
+                <include layout="@layout/shimmer_character_layout"/>
+                <include layout="@layout/shimmer_character_layout"/>
+                <include layout="@layout/shimmer_character_layout"/>
+                <include layout="@layout/shimmer_character_layout"/>
+                <include layout="@layout/shimmer_character_layout"/>
+                <include layout="@layout/shimmer_character_layout"/>
+                <include layout="@layout/shimmer_character_layout"/>
+                <include layout="@layout/shimmer_character_layout"/>
+                <include layout="@layout/shimmer_character_layout"/>
+                <include layout="@layout/shimmer_character_layout"/>
+                <include layout="@layout/shimmer_character_layout"/>
+            </LinearLayout>
+            </com.facebook.shimmer.ShimmerFrameLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/charRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/imageView2"
+            />
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

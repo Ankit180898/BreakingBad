@@ -1,5 +1,6 @@
 package com.example.breakingbad.api;
 
+import com.example.breakingbad.model.CharacterModel;
 import com.example.breakingbad.model.Model;
 
 import java.util.List;
@@ -11,6 +12,11 @@ public interface ApiInterface {
 
     @GET("episodes?series=Breaking+Bad")
     Call<List<Model>> getData();
+
+    @GET("characters")
+    Call<List<CharacterModel>> getAllCharacters();
+
+
 
 
 }

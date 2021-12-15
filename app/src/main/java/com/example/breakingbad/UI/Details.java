@@ -1,4 +1,4 @@
-package com.example.breakingbad;
+package com.example.breakingbad.UI;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
@@ -6,6 +6,7 @@ import androidx.databinding.DataBindingUtil;
 import android.content.Intent;
 import android.os.Bundle;
 
+import com.example.breakingbad.R;
 import com.example.breakingbad.databinding.ActivityDetailsBinding;
 
 import java.util.ArrayList;
@@ -16,7 +17,7 @@ public class Details extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding= DataBindingUtil.setContentView(this,R.layout.activity_details);
+        binding= DataBindingUtil.setContentView(this, R.layout.activity_details);
 
 
         // Recieve data
